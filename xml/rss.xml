@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+	<channel>
+		<title>Cheese album news</title>
+		<link>https://twitter.com/Stromae/status/1273958062014021632</link>
+		<description>Cheese turned 10 this week!</description>
+  <item>
+		<title>Stromae on Coachella</title>
+		<link>https://twitter.com/Stromae/status/552564777160298496</link>
+		<description>Stromae will be present on Coachella</description>
+  </item>
+  <item>
+		<title>COVID-19</title>
+		<link>https://blogs.microsoft.com/blog/2020/12/11/successful-covid-19-vaccine-delivery-requires-strong-tech-partnerships/</link>
+		<description>New about a virus COVID-19</description>
+  </item>
+</channel>
+
+
+</rss>
