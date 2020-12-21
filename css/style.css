@@ -331,7 +331,7 @@ section article figure figcaption{
 /*AUTHOR  pocetak*/
 #bg2{
 	width:80%;
-	height:800px;
+	height:1500px;
 	background-color:#4A4A4A;
 	margin:0px auto;
 }
@@ -365,27 +365,45 @@ section article figure figcaption{
 	font-size:20px;
 	font-family:'Wallpoet', cursive;
 }
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 20px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 20px; 
-  margin-bottom: 16px; 
-  resize: vertical;
-  font-size:16px;
+#forma{
+	width:60%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border:3px outset #fff;
+	margin:30px auto;
+	font-family: 'Sura', serif;
+	font-size:25px;
+	padding:10px auto;
 }
-input[type=submit]{
-	border-radius: 4px; 
-	width:70px;
-	height:50px;
-}
-form{
-	margin-top:20px;
+#forma form textarea{
+	width:400px;
+	height:100px;
+	resize:none;
 }
 
-
+#forma form input[type=text] {
+	width:100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+#forma form input[type=email] {
+	width:100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+#forma form input[type=submit]{
+	width:60px;
+	height:30px;
+	margin-right:20px;
+}
+#forma form input[type=reset]{
+	width:60px;
+	height:30px;
+}
+#forma form input[type=radio]{
+	margin-right:10px;
+}
 /*AUTHOR  kraj*/
 
 /*GALLERY  pocetak*/

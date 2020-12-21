@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 	<head>
 		<title>Stromae</title>
 		<meta charset="UTF-8" />
 		<meta name="keywords" content="Stromae,music,hip-hop,pop" />
-		<meta name="description" content="Web site about hip-hop and pop singer Stromae" />
+		<meta name="description" content="Web page about the author" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon" sizes="32x32">	
 		<script src="https://kit.fontawesome.com/59823f594a.js" crossorigin="anonymous"></script>
@@ -33,6 +33,30 @@
 					<img src="../img/joca.jpg" alt="Picture of author"/>
 					<p>Hi.I'm Jovan Šinik,the author of this website.I would like to say a few words about myself.I was born on 29th of April 2001,in Belgrade.I currently live in 	Obrenovac.I graduated from Gymnasium in Obrenovac in 2020,now I'm a member of ICT School in Belgrade,which i attend.In the future,I hope i will get to know more about web designing and programming,which will be my proffession.My main hobbies are playing video games and going to the gym,but I also listen to music.</p>
 				</div>	
+				
+				<div id="forma">
+						<form action="" method="post">
+
+							<label for="fname">First Name</label><br/>
+							<input type="text" id="fname" name="firstname" placeholder="Your name.."><br/>
+
+							<label for="lname">Last Name</label><br/>
+							<input type="text" id="lname" name="lastname" placeholder="Your last name.."><br/>
+							
+							<label for="email">Email</label><br/>
+							<input type="email" id="email" name="email"/><br/>
+
+							<input type="radio" id="male" name="sex"/><label for="male">Male</label>
+							<input type="radio" id="female" name="sex"/><label for="female">Female</label><br/>
+							
+							<label for="subject">Subject</label><br/>
+							<textarea id="subject" name="subject" placeholder="Write a message..." maxlength="200"></textarea><br/>
+
+							<input type="submit" value="Submit">
+							<input type="reset" value="Reset">
+
+						</form>
+				</div>
 			</div>
 	</body>
 </html>
